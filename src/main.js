@@ -1,7 +1,9 @@
 // package.json set type:module use import
 import { Client, Events, GatewayIntentBits } from 'discord.js'
+import vuelnit from '@/core/vue'
 import dotenv from 'dotenv'
 
+vuelnit()
 // read .env data
 dotenv.config()
 
